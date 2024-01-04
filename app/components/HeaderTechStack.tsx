@@ -50,7 +50,7 @@ const HeaderTechStack: NextPage<CarouselProps> = ({ items }) => {
           ref={carouselRef}
         >
           {items.map((item, index) => (
-            <li key={index} className="bg-emerald-950 p-5 rounded-2xl">
+            <li key={index} className="bg-emerald-950 p-4 rounded-2xl">
               <p>{item}</p>
             </li>
           ))}
@@ -60,7 +60,7 @@ const HeaderTechStack: NextPage<CarouselProps> = ({ items }) => {
           aria-hidden
         >
           {items.map((item, index) => (
-            <li key={index} className="bg-emerald-950 p-5 rounded-2xl">
+            <li key={index} className="bg-emerald-950 p-4 rounded-2xl">
               <p>{item}</p>
             </li>
           ))}
