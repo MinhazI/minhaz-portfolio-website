@@ -3,20 +3,22 @@ import React from "react";
 
 function AboutSection() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 pt-20 px-10 rounded-t-3xl">
-      <div className="grid-cols-1">
+    <div className="grid grid-cols-1 md:grid-cols-2 pt-20 px-10 rounded-t-3xl align-middle">
+      <div className="grid-cols-1 align-middle pt-20 md:pt-0">
         <Image
-          className="justify-center md:text-right"
+          className="block m-auto rounded-full"
           alt="Minhaz I Mohamed"
           src="https://1nmzfzttiydo8mgt.public.blob.vercel-storage.com/Minhaz%20Irphan%20Mohamed-tQ754YBL1BzOXlto49btBo0WQ64fXh"
           width={0}
           height={0}
-          sizes="90vw"
-          style={{ width: "60%", height: "auto" }}
+          sizes="100vw"
+          style={{ width: "50%", height: "auto" }}
         />
       </div>
-      <div className="grid-cols-1">
-        <h1 className="text-6xl font-extrabold underline">About me</h1>
+      <div className="grid-cols-1 pt-20 md:pt-0">
+        <h1 className="text-6xl font-extrabold underline text-center md:text-left">
+          About me
+        </h1>
         <p className="pt-10 pb-4 text-justify">
           I am an innovative software engineer specializing as a front-end
           developer and in web technologies and server-side management,
