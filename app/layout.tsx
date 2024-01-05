@@ -8,7 +8,7 @@ const DM_Sans_FONT = DM_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Software Engineer - Frontend Developer | Minhaz Irphan Mohamed",
   description:
-    "Welcome to my website, I am Minhaz Irphan Mohamed. A software engineer ready to use my skills to help innovate the tech space.",
+    "Welcome to my website, I am Minhaz Irphan Mohamed. I am an innovative software engineer specializing as a front-end developer and in web technologies and server-side management.  I bring over 4 years of experience as a software engineer, adept problem solver, and collaborative team player.",
 };
 
 export default function RootLayout({
