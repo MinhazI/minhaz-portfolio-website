@@ -11,10 +11,10 @@ function Header() {
         <div className="md: max-w-[800px] m-auto my-0">
           <p className="pt-5">
             I am an innovative software engineer specializing as a front-end
-            developer and in web technologies and server-side management,
-            currently venturing into the entrepreneurial realm. With a dynamic
-            skill set, I bring over 4 years of experience as a software
-            engineer, adept problem solver, and collaborative team player.{" "}
+            developer with web technologies (React JS, Next JS, and more) and in
+            server-side management. With a dynamic skill set, I bring over 4
+            years of experience as a software engineer, adept problem solver,
+            and collaborative team player.{" "}
           </p>
           <p className="pt-2">
             My passion lies in leveraging cutting-edge web technologies to drive
