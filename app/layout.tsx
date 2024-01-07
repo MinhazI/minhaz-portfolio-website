@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import FlareCursor from "./components/FlareCursor";
+import Cursor from "./components/Cursor";
 
 const DM_Sans_FONT = DM_Sans({ subsets: ["latin"] });
 
@@ -19,7 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={DM_Sans_FONT.className}>
-        <FlareCursor />
+        {/* <FlareCursor /> */}
+        <Cursor />
         {children}
       </body>
     </html>
