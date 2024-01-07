@@ -9,8 +9,8 @@ export default function Home() {
     <>
       {/* <NavigationBar /> */}
       <Header />
-      <AboutSection />
-      <CompaniesWorkedAt />
+      {/* <AboutSection /> */}
+      {/* <CompaniesWorkedAt /> */}
     </>
   );
 }
