@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function AboutSection() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 pt-20 px-10 rounded-t-3xl align-middle">
-      <div className="grid-cols-1 align-middle pt-20 md:pt-0">
+    <div className="grid grid-cols-1 md:grid-cols-2 py-20 px-10 rounded-t-3xl align-middle">
+      <div className="grid-cols-1 flex justify-center items-center align-middle pt-20 md:pt-0">
         <Image
           className="block m-auto rounded-full"
           alt="Minhaz I Mohamed"
@@ -14,6 +15,7 @@ function AboutSection() {
           sizes="100vw"
           style={{ width: "50%", height: "auto" }}
         />
+        <Link href={"#"}>Link</Link>
       </div>
       <div className="grid-cols-1 pt-20 md:pt-0">
         <h1 className="text-6xl font-extrabold underline text-center md:text-left">
