@@ -36,7 +36,7 @@ function Cursor() {
     });
   }, []);
   return (
-    <div id="custom-cursor" className="custom-cursor">
+    <div id="custom-cursor" className="custom-cursor hidden md:flex">
       <span className="cursor-text">View</span>
     </div>
   );

@@ -61,7 +61,6 @@ body,
   z-index: 9999;
   mix-blend-mode: difference;
   padding: 10px;
-  display: flex;
   align-items: center;
   background-color: white;
 }
