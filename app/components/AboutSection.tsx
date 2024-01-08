@@ -33,12 +33,6 @@ function AboutSection() {
           fast-paced environments, delivering solutions that seamlessly blend
           technical expertise with a keen eye for user experience.
         </p>
-        <p className="pb-4 text-justify">
-          I am open to exciting opportunities that allow me to contribute my
-          skills to forward-thinking projects. Let&apos;s connect and explore
-          how my unique blend of technical proficiency and entrepreneurial
-          spirit can add value to your team.
-        </p>
       </div>
     </div>
   );
