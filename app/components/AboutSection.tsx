@@ -15,10 +15,9 @@ function AboutSection() {
           sizes="100vw"
           style={{ width: "50%", height: "auto" }}
         />
-        <Link href={"#"}>Link</Link>
       </div>
       <div className="grid-cols-1 pt-20 md:pt-0">
-        <h1 className="text-6xl font-extrabold underline text-center md:text-left">
+        <h1 className="text-6xl font-extrabold text-center md:text-left">
           About me
         </h1>
         <p className="pt-10 pb-4 text-justify">

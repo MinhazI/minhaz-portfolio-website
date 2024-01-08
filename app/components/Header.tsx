@@ -8,7 +8,7 @@ function Header() {
         <h2 className="text-3xl text-center">Hi there 👋</h2>
         <h1 className="text-4xl pt-3 pb-3">I am Minhaz I. Mohamed,</h1>
 
-        <div className="md: max-w-[800px] m-auto my-0">
+        {/* <div className="md: max-w-[800px] m-auto my-0">
           <p className="pt-5">
             I am an innovative software engineer specializing as a front-end
             developer with web technologies (React JS, Next JS, and more) and in
@@ -50,8 +50,8 @@ function Header() {
               website will be launched soon.
             </code>
           </p>
-        </div>
-        {/* <div className="bottom-0">
+        </div> */}
+        <div className="bottom-0">
           <HeaderTechStack
             items={[
               "TypeScript",
@@ -62,7 +62,7 @@ function Header() {
               "Team player",
             ]}
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );

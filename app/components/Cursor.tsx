@@ -7,6 +7,12 @@ function Cursor() {
   useEffect(() => {
     const cursor = document.getElementById("custom-cursor");
     const links = document.querySelectorAll("a");
+    const headings1 = document.querySelectorAll("h1");
+    const headings2 = document.querySelectorAll("h2");
+    const headings3 = document.querySelectorAll("h3");
+    const headings4 = document.querySelectorAll("h4");
+    const headings5 = document.querySelectorAll("h5");
+    const headings6 = document.querySelectorAll("h6");
     const cursorText: HTMLElement = document.querySelector(".cursor-text")!;
 
     const onMouseMove = (event: MouseEvent) => {
@@ -33,6 +39,36 @@ function Cursor() {
     links.forEach((link) => {
       link.addEventListener("mouseenter", onMouseEnterLink);
       link.addEventListener("mouseleave", onMouseLeaveLink);
+    });
+
+    headings1.forEach((title) => {
+      title.addEventListener("mouseenter", onMouseEnterLink);
+      title.addEventListener("mouseleave", onMouseLeaveLink);
+    });
+
+    headings2.forEach((title) => {
+      title.addEventListener("mouseenter", onMouseEnterLink);
+      title.addEventListener("mouseleave", onMouseLeaveLink);
+    });
+
+    headings3.forEach((title) => {
+      title.addEventListener("mouseenter", onMouseEnterLink);
+      title.addEventListener("mouseleave", onMouseLeaveLink);
+    });
+
+    headings4.forEach((title) => {
+      title.addEventListener("mouseenter", onMouseEnterLink);
+      title.addEventListener("mouseleave", onMouseLeaveLink);
+    });
+
+    headings5.forEach((title) => {
+      title.addEventListener("mouseenter", onMouseEnterLink);
+      title.addEventListener("mouseleave", onMouseLeaveLink);
+    });
+
+    headings6.forEach((title) => {
+      title.addEventListener("mouseenter", onMouseEnterLink);
+      title.addEventListener("mouseleave", onMouseLeaveLink);
     });
   }, []);
   return (
