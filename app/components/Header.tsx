@@ -3,10 +3,12 @@ import HeaderTechStack from "./HeaderTechStack";
 
 function Header() {
   return (
-    <div className="grid grid-cols-1 min-h-[90vh] text-justify md:text-center align-middle bg-gray-900 px-10 lg:px-0 py-20 lg:py-0 rounded-b-2xl">
+    <div className="grid grid-cols-1 min-h-[60vh] md:min-h-[80vh] text-justify md:text-center align-middle bg-gray-900 px-10 lg:px-0 py-20 lg:py-0 rounded-b-2xl">
       <div className="flex flex-col justify-center text-white text-center">
         <h2 className="text-3xl text-center">Hi there 👋</h2>
-        <h1 className="text-4xl pt-3 pb-3">I am Minhaz I. Mohamed,</h1>
+        <h1 className="text-4xl pt-3 pb-3">
+          I am <span className="font-bold">Minhaz I. Mohamed</span>,
+        </h1>
 
         {/* <div className="md: max-w-[800px] m-auto my-0">
           <p className="pt-5">
@@ -55,8 +57,8 @@ function Header() {
           <HeaderTechStack
             items={[
               "TypeScript",
-              "React.js",
-              "Next JS",
+              "React",
+              "Next.js",
               "Tailwind CSS",
               "JavaScript",
               "Team player",

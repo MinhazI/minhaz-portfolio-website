@@ -7,13 +7,12 @@ function AboutSection() {
     <div className="grid grid-cols-1 md:grid-cols-2 py-20 px-10 rounded-t-3xl align-middle">
       <div className="grid-cols-1 flex justify-center items-center align-middle pt-20 md:pt-0">
         <Image
-          className="block m-auto rounded-full"
+          className="block m-auto rounded-full w-[50%] h-auto"
           alt="Minhaz I Mohamed"
           src="https://1nmzfzttiydo8mgt.public.blob.vercel-storage.com/Minhaz%20Irphan%20Mohamed-tQ754YBL1BzOXlto49btBo0WQ64fXh"
           width={0}
           height={0}
           sizes="100vw"
-          style={{ width: "50%", height: "auto" }}
         />
       </div>
       <div className="grid-cols-1 pt-20 md:pt-0">

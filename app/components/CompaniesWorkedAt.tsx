@@ -20,7 +20,7 @@ const CompaniesWorkedAt: NextPage = () => {
           width={0}
           height={9}
           sizes="100vw"
-          className="px-2 w-[30%] h-[85%] md:h-[85%] md:w-[10%]"
+          className="px-2 w-[30%] h-[85%] md:h-[90%] md:w-[10%]"
         />
 
         <Image
@@ -31,7 +31,7 @@ const CompaniesWorkedAt: NextPage = () => {
           width={0}
           height={9}
           sizes="100vw"
-          className="px-2 w-[30%] h-[85%] md:h-[85%] md:w-[10%]"
+          className="px-2 w-[30%] h-[85%] md:h-[90%] md:w-[10%]"
         />
 
         <Image
@@ -42,7 +42,7 @@ const CompaniesWorkedAt: NextPage = () => {
           width={0}
           height={9}
           sizes="100vw"
-          className="px-2 w-[30%] h-[85%] md:h-[85%] md:w-[10%]"
+          className="px-2 w-[30%] h-[85%] md:h-[90%] md:w-[10%]"
         />
       </div>
     </div>

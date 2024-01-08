@@ -43,14 +43,14 @@ const HeaderTechStack: NextPage<CarouselProps> = ({ items }) => {
 
   return (
     <div className="bottom-0">
-      <p className="my-10">A software engineer that is experienced in</p>
+      <p className="my-5">a software engineer that is experienced in</p>
       <div className="w-11/12 inline-flex flex-nowrap my-3 overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
         <ul
-          className="flex items-center justify-center md:justify-start [&_li]:mx-8 animate-infinite-scroll "
+          className="flex items-center justify-center md:justify-start [&_li]:mx-5 md:[&_li]:mx-8 animate-infinite-scroll "
           ref={carouselRef}
         >
           {items.map((item, index) => (
-            <li key={index} className="bg-emerald-950 p-4 rounded-2xl">
+            <li key={index} className="bg-emerald-950 p-4 rounded-2xl w-max">
               <p>{item}</p>
             </li>
           ))}
