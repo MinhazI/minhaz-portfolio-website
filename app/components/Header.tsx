@@ -3,7 +3,7 @@ import HeaderTechStack from "./HeaderTechStack";
 
 function Header() {
   return (
-    <div className="grid grid-cols-1 min-h-[100vh] text-justify md:text-center align-middle bg-gray-900 px-10 lg:px-0 py-20 lg:py-0">
+    <div className="grid grid-cols-1 min-h-[90vh] text-justify md:text-center align-middle bg-gray-900 px-10 lg:px-0 py-20 lg:py-0 rounded-b-2xl">
       <div className="flex flex-col justify-center text-white text-center">
         <h2 className="text-3xl text-center">Hi there 👋</h2>
         <h1 className="text-4xl pt-3 pb-3">I am Minhaz I. Mohamed,</h1>

@@ -7,32 +7,42 @@ import Image from "next/image";
 // Define the CompaniesWorkedAt component as a NextPage
 const CompaniesWorkedAt: NextPage = () => {
   return (
-    <div className="grid grid-cols-1 min-h-[25vh] text-center align-middle bg-gray-900 py-10 text-white">
+    <div className="grid grid-cols-1 min-h-[25vh] text-center align-middle bg-gray-900 text-white py-20 px-10 rounded-t-2xl">
       <h1 className="text-2xl text-center">
         I have helped the following companies innovate in the tech space
       </h1>
-      <div className="flex flex-row flex-1 justify-center pt-10">
-        {/* <div className="grid grid-cols-4"> */}
+      <div className="flex flex-row flex-1 justify-center pt-10 align-middle text-center">
         <Image
           src={
-            "https://1nmzfzttiydo8mgt.public.blob.vercel-storage.com/surge-global-logo-in-white-PHUtu0kC9X2SIWevFCudUpDRUM8pP0.svg"
+            "https://1nmzfzttiydo8mgt.public.blob.vercel-storage.com/Surge%20-%20Resized-SyPflQuuTQfyv1F7lkHW7sNwnmVUQ4.png"
           }
           alt="Surge Global"
           width={0}
-          height={0}
-          sizes="10vw"
-          style={{ width: "50%", height: "50%" }}
-          className=""
+          height={9}
+          sizes="100vw"
+          className="px-2 w-[30%] h-[85%] md:h-[85%] md:w-[10%]"
         />
+
         <Image
           src={
-            "https://1nmzfzttiydo8mgt.public.blob.vercel-storage.com/Motion%20Miracles-fDZNdR9yAkDrL0A0Pi8dnQti1T491l.png"
+            "https://1nmzfzttiydo8mgt.public.blob.vercel-storage.com/Win%20Authority%20-%20Resized-uPF2pYYiOaLwVeO5gTjJAGMxqFLRBC.png"
+          }
+          alt="Win Authority LLC"
+          width={0}
+          height={9}
+          sizes="100vw"
+          className="px-2 w-[30%] h-[85%] md:h-[85%] md:w-[10%]"
+        />
+
+        <Image
+          src={
+            "https://1nmzfzttiydo8mgt.public.blob.vercel-storage.com/Motion%20Miracles%20-%20Resized-f6vI2LHcepIUHyglmsnM6Gvs0unlDn.png"
           }
           alt="Motion Miracles"
           width={0}
           height={9}
-          sizes="10vw"
-          style={{ width: "30%", height: "50%" }}
+          sizes="100vw"
+          className="px-2 w-[30%] h-[85%] md:h-[85%] md:w-[10%]"
         />
       </div>
     </div>
